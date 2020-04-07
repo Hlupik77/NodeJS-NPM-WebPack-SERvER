@@ -15,7 +15,7 @@ export default class Article {
         let p = document.createElement('p');
         p.innerText = this.description;
 
-        app.appendChild(h);
-        app.appendChild(p);
+        app.append(h);
+        app.append(p);
     }
 }
